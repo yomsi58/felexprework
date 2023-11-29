@@ -1,0 +1,14 @@
+#please write a python function 
+#max_mum_in_list to return the max number of the given  list ,the first line of the code 
+#has  been defined as been 
+# def # max_mum_in_list(a_list) 
+def return_max(alist):
+    
+    for num in  alist[1:]:
+        largest= alist[0]
+        if num>largest:
+            print(num>largest)
+            largest=num
+    return largest
+
+print(return_max([1,12,34,52,16,8]))

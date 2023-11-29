@@ -1,0 +1,10 @@
+# write a  python function  first_ odds that prints the odd numbers from 1-100 and  returns
+# returns nothing def first_odd()
+# RAYMOND FEUZEU USERNAME RAYMOND58 
+def  print_odd(num):
+    for i in range(1,num+1):
+        if i %2!=0:
+            print( i, end =  " ,")
+
+n=int(input ( "ENTER A NUMBER: "))
+print_odd(n)

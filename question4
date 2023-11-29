@@ -1,0 +1,17 @@
+#write a function to return if the given  year is a leap year 
+# A leap  year is divisible by 4, but not divisible by 100
+#unless it is also divisible by 400 the return  should  be boolean Type
+#( true/false). def is _leap_year(a_year):
+# write a python function to determine whether a given year is a leap year
+def _leap_year(y):
+    if y %400==0:
+        return True
+    if y%100==0:
+        return False
+    if y%4==0:
+        return True
+    else :
+     return False
+    
+print(_leap_year(1800))
+print(_leap_year(2004))
